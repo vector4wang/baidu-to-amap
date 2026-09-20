@@ -1,0 +1,9 @@
+node_modules/
+pw-profile/
+run.log
+failed.txt
+LOGIN_OK
+ABORT
+points.csv
+*.xlsx
+.DS_Store

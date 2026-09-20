@@ -1,0 +1,17 @@
+{
+  "name": "baidu-to-amap",
+  "version": "1.0.0",
+  "description": "百度地图收藏夹一键迁移到高德地图收藏夹（导出→清洗→网页版自动收藏）",
+  "main": "src/collect.js",
+  "type": "commonjs",
+  "scripts": {
+    "clean": "node src/clean.js",
+    "collect": "node src/collect.js"
+  },
+  "keywords": ["百度地图", "高德地图", "收藏夹", "迁移", "amap", "baidu-map", "favorites"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
