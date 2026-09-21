@@ -1,6 +1,24 @@
+```
+  _           _     _       ___
+ | |         (_)   | |     |__ \
+ | |__   __ _ _  __| |_   _   ) |__ _ _ __ ___   __ _ _ __
+ | '_ \ / _` | |/ _` | | | | / // _` | '_ ` _ \ / _` | '_ \
+ | |_) | (_| | | (_| | |_| |/ /| (_| | | | | | | (_| | |_) |
+ |_.__/ \__,_|_|\__,_|\__,_|____\__,_|_| |_| |_|\__,_| .__/
+                                                     | |
+                                                     |_|
+```
+
 # baidu-to-amap
 
 **百度地图收藏夹 → 高德地图收藏夹 一键迁移工具**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-brightgreen.svg)](https://nodejs.org/)
+[![Powered by Playwright](https://img.shields.io/badge/Powered%20by-Playwright-45ba63.svg)](https://playwright.dev/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
+[![Success Rate](https://img.shields.io/badge/%E5%AE%9E%E6%B5%8B%E6%88%90%E5%8A%9F%E7%8E%87-708%2F708-red.svg)]()
+[![GitHub Stars](https://img.shields.io/github/stars/vector4wang/baidu-to-amap?style=social)](https://github.com/vector4wang/baidu-to-amap)
 
 百度和高德的收藏夹互不开放，官方没有迁移通道。本工具用「导出 → 清洗 → 网页版自动化收藏」三步，把百度收藏的几百个点**全自动**搬进高德收藏夹（实测 708/708 零失败）。
 
